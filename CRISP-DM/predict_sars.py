@@ -67,4 +67,4 @@ if hasattr(lasso_model, 'feature_names_in_'):
 predictions = lasso_model.predict(sars_epi_viro_encoded.drop('prevalence_rolling', axis=1))
 predictions = pd.Series(predictions)
 predictions.to_csv('sars_predictions.csv', index=False)
-print('Predictions saved to "sars_predictions.csv"')
+print('Predictions saved to ""')
